@@ -14,133 +14,144 @@
         <img src="/images/side_image.jpg" alt="" />
       </div>
 
-      <div class="right">
-        <!--  -->
-        <div class="heading flex font">
-          <h2>Registration</h2>
+      <form id="form1">
+        <div class="right">
+          <!--  -->
+          <div class="heading flex font">
+            <h2>Registration</h2>
+            <div class="ul">
+              <label for="language" id="lang" class="font">Language</label>
+              <select id="language_selector">
+                <option value="EN" selected onclick="change_language">
+                  EN
+                </option>
+                <option value="AR" onclick="change_language">AR</option>
+              </select>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row1 flex">
+            <div class="text-box">
+              <form>
+                <input
+                  id="full_name"
+                  type="text"
+                  name="input"
+                  placeholder="Full Name"
+                  required
+                />
+              </form>
+            </div>
+            <div class="text-box">
+              <form id="form3">
+                <input
+                  type="password"
+                  id="password"
+                  name="input"
+                  placeholder="Password"
+                  minlength="8"
+                  required
+                />
+              </form>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row2 flex">
+            <div class="text-box">
+              <form>
+                <input
+                  type="email"
+                  id="email_input"
+                  name="input"
+                  placeholder="Email"
+                  required
+                />
+              </form>
+            </div>
+            <div class="text-box">
+              <form>
+                <input
+                  type="text"
+                  id="numbers_id"
+                  name="input"
+                  placeholder="ID of 10 numbers"
+                />
+              </form>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row3 flex">
+            <div class="text-box input">
+              <form>
+                <input
+                  type="text"
+                  id="something"
+                  name="input"
+                  placeholder="Input something "
+                  required
+                />
+              </form>
+            </div>
+            <div class="text-box date">
+              <form>
+                <input
+                  type="date"
+                  id="date_of_birth"
+                  name="input"
+                  placeholder="Year of Birth"
+                  required
+                />
+              </form>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row4 flex">
+            <div class="text-box">
+              <form>
+                <input
+                  type="text"
+                  id="reverse"
+                  name="input"
+                  placeholder="Input something to reverse it"
+                  required
+                />
+              </form>
+            </div>
+            <div class="text-box">
+              <form>
+                <input
+                  type="text"
+                  id="ay"
+                  name="input"
+                  placeholder="Input something (ay) "
+                  required
+                />
+              </form>
+            </div>
+          </div>
+          <!--  -->
+          <div class="login">
+            <a href="#">Already have an account? Log In</a>
+          </div>
+          <div class="proceed">
+            <form>
+              <input id="submit" type="submit" value="Proceed to next step" />
+            </form>
+          </div>
+        </div>
+      </form>
+    </section>
 
-          <div class="ul">
-            <label for="language" id="lang" class="font">Language</label>
-            <select>
-              <option value="EN" selected>EN</option>
-              <option value="AR">AR</option>
-            </select>
-          </div>
-        </div>
+    <section class="my_ip">
+      <p></p>
+    </section>
 
-        <!--  -->
+    <section class="scrolling">
+      <p>BTW... keep scrolling down till the end !</p>
+    </section>
 
-        <div class="row1 flex">
-          <div class="text-box">
-            <form action="submit" target="_blank" method="post">
-              <input
-                id="full_name"
-                type="text"
-                name="input"
-                placeholder="Full Name"
-                required
-              />
-            </form>
-          </div>
-          <div class="text-box">
-            <form action="">
-              <input
-                type="password"
-                id="password"
-                name="input"
-                placeholder="Password"
-                minlength="8"
-                required
-              />
-            </form>
-          </div>
-        </div>
-        <!--  -->
-        <div class="row2 flex">
-          <div class="text-box">
-            <form action="">
-              <input
-                type="email"
-                id="email_input"
-                name="input"
-                placeholder="Email"
-                required
-              />
-            </form>
-          </div>
-          <div class="text-box">
-            <form action="">
-              <input
-                type="number"
-                id="10_numbers"
-                name="input"
-                placeholder="ID of 10 numbers"
-                required
-              />
-            </form>
-          </div>
-        </div>
-        <!--  -->
-        <div class="row3 flex">
-          <div class="text-box input">
-            <form action="">
-              <input
-                type="text"
-                id="something"
-                name="input"
-                placeholder="Input something "
-                required
-              />
-            </form>
-          </div>
-          <div class="text-box date">
-            <form action="">
-              <input
-                type="date"
-                id="date_of_birth"
-                name="input"
-                placeholder="Year of Birth"
-                required
-              />
-            </form>
-          </div>
-        </div>
-        <!--  -->
-        <div class="row4 flex">
-          <div class="text-box">
-            <form action="">
-              <input
-                type="text"
-                id="reverse"
-                name="input"
-                placeholder="Input something to reverse it"
-                required
-              />
-            </form>
-          </div>
-          <div class="text-box">
-            <form action="">
-              <input
-                type="text"
-                id="ay"
-                name="input"
-                placeholder="Input something (ay) "
-                required
-              />
-            </form>
-          </div>
-        </div>
-        <!--  -->
-        <div class="login">
-          <a href="#">Already have an account? Log In</a>
-        </div>
-
-        <div class="proceed">
-          <form>
-            <input id="submit" type="submit" value="Proceed to next step" />
-          </form>
-        </div>
-      </div>
+    <section class="got-u">
+      <a href="index.html"><button>Got U :)</button></a>
     </section>
 
     <script src="java.js" type="text/javascript"></script>

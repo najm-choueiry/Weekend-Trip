@@ -1,9 +1,12 @@
-password (Password should contain 8 characters minimum, one special character minimum, at least one upper case letter,  etc. )
+👌password (Password should contain 8 characters minimum, one special character minimum, at least one upper case letter,  etc. )
 
 
-email (should have also the email format: @, no dashes, a "dot" somewhere after the @. Store the entered fields in a JSON object. )
+👌email (should have also the email format: @, no dashes, a "dot" somewhere after the @. 
 
-id: add 10 numbers ((using prompt()) and implement Merge Sort algorithm using JS. )
+Store the entered fields in a JSON object. )
+
+👌id: add 10 numbers ((using prompt()) and 
+implement Merge Sort algorithm using JS. )
 
 input a string (JS will display on the DOM if this string is palindrome or not. The function should be implemented recursively. )
 
@@ -30,6 +33,6 @@ Get your IP address using JS (automatically) and sum the even numbers in it.
 
 Display your current location in a <h3>. The location should be fetched automatically 
 
-Alert when we scroll to a specific section in your page. 
+👌Alert when we scroll to a specific section in your page. 
 
-Implement a button at the end of the page that will take me to the top of the page when clicked.
+👌Implement a button at the end of the page that will take me to the top of the page when clicked.

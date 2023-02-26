@@ -11,7 +11,6 @@
 
 .left img {
     height: 71.3vh;
-    padding-top: 5px;
 }
 
 #lang {
@@ -21,9 +20,9 @@
 
 .main-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 600vh;
+    margin-top: 100px;
 }
 
 .ul {
@@ -108,4 +107,26 @@ form {
     border-radius: 4px;
     cursor: pointer;
     width: 60%;
+  }
+
+  .scrolling {
+    position: fixed;
+    top: 90%;
+    right: 40%;
+    bottom: 10%
+    
+
+  }
+
+  .got-u {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+
+  .my_ip {
+    position: fixed ; 
+    top: 0;
+    left: 0;
   }
