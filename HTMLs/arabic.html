@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weekend Trip</title>
     <link rel="stylesheet" href="/styles.css" />
+    <script src="java.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -22,8 +23,8 @@
           <div class="ul">
             <label for="language" id="lang" class="font">Language</label>
             <select>
-              <option value="EN" selected>EN</option>
-              <option value="AR">AR</option>
+              <option value="EN">AR</option>
+              <option value="AR">EN</option>
             </select>
           </div>
         </div>
@@ -37,7 +38,7 @@
                 id="full_name"
                 type="text"
                 name="input"
-                placeholder="Full Name"
+                placeholder="الاسم الكامل"
                 required
               />
             </form>
@@ -46,9 +47,9 @@
             <form action="">
               <input
                 type="password"
-                id="password"
+                id="input"
                 name="input"
-                placeholder="Password"
+                placeholder="كلمة المرور"
                 minlength="8"
                 required
               />
@@ -61,9 +62,9 @@
             <form action="">
               <input
                 type="email"
-                id="email_input"
+                id="input"
                 name="input"
-                placeholder="Email"
+                placeholder="بريد إلكتروني"
                 required
               />
             </form>
@@ -72,9 +73,9 @@
             <form action="">
               <input
                 type="number"
-                id="10_numbers"
+                id="input"
                 name="input"
-                placeholder="ID of 10 numbers"
+                placeholder="معرف 10 أرقام"
                 required
               />
             </form>
@@ -86,9 +87,9 @@
             <form action="">
               <input
                 type="text"
-                id="something"
+                id="input"
                 name="input"
-                placeholder="Input something "
+                placeholder="أدخل شيئًا "
                 required
               />
             </form>
@@ -97,9 +98,9 @@
             <form action="">
               <input
                 type="date"
-                id="date_of_birth"
+                id="input"
                 name="input"
-                placeholder="Year of Birth"
+                placeholder="سنة الميلاد"
                 required
               />
             </form>
@@ -111,9 +112,9 @@
             <form action="">
               <input
                 type="text"
-                id="reverse"
+                id="input"
                 name="input"
-                placeholder="Input something to reverse it"
+                placeholder="أدخل شيئًا لعكسه"
                 required
               />
             </form>
@@ -122,9 +123,9 @@
             <form action="">
               <input
                 type="text"
-                id="ay"
+                id="input"
                 name="input"
-                placeholder="Input something (ay) "
+                placeholder="أدخل شيئًا (ay) "
                 required
               />
             </form>
@@ -132,17 +133,15 @@
         </div>
         <!--  -->
         <div class="login">
-          <a href="#">Already have an account? Log In</a>
+          <a href="#">هل لديك حساب؟ تسجيل الدخول</a>
         </div>
 
         <div class="proceed">
           <form>
-            <input id="submit" type="submit" value="Proceed to next step" />
+            <input id="submit" type="submit" value="انتقل إلى الخطوة التالية" />
           </form>
         </div>
       </div>
     </section>
-
-    <script src="java.js" type="text/javascript"></script>
   </body>
 </html>
