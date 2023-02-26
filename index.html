@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weekend Trip</title>
     <link rel="stylesheet" href="/styles.css" />
+    <script src="java.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -20,8 +21,11 @@
           <h2>Registration</h2>
 
           <div class="ul">
-            <button>EN</button>
-            <button>AR</button>
+            <label for="language" id="lang" class="font">Language</label>
+            <select>
+              <option value="EN">EN</option>
+              <option value="AR">AR</option>
+            </select>
           </div>
         </div>
 
@@ -29,85 +33,102 @@
 
         <div class="row1 flex">
           <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Full Name"
-              required
-            />
+            <form action="submit" target="_blank" method="post">
+              <input
+                id="full_name"
+                type="text"
+                name="input"
+                placeholder="Full Name"
+                required
+              />
+            </form>
           </div>
           <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Password"
-              required
-            />
+            <form action="">
+              <input
+                type="password"
+                id="input"
+                name="input"
+                placeholder="Password"
+                minlength="8"
+                required
+              />
+            </form>
           </div>
         </div>
         <!--  -->
         <div class="row2 flex">
           <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Email"
-              required
-            />
+            <form action="">
+              <input
+                type="email"
+                id="input"
+                name="input"
+                placeholder="Email"
+                required
+              />
+            </form>
           </div>
           <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="ID of 10 numbers"
-              required
-            />
+            <form action="">
+              <input
+                type="number"
+                id="input"
+                name="input"
+                placeholder="ID of 10 numbers"
+                required
+              />
+            </form>
           </div>
         </div>
         <!--  -->
         <div class="row3 flex">
-          <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Input something "
-              required
-            />
+          <div class="text-box input">
+            <form action="">
+              <input
+                type="text"
+                id="input"
+                name="input"
+                placeholder="Input something "
+                required
+              />
+            </form>
           </div>
-          <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Year of Birth"
-              required
-            />
+          <div class="text-box date">
+            <form action="">
+              <input
+                type="date"
+                id="input"
+                name="input"
+                placeholder="Year of Birth"
+                required
+              />
+            </form>
           </div>
         </div>
         <!--  -->
         <div class="row4 flex">
           <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Input something to reverse it"
-              required
-            />
+            <form action="">
+              <input
+                type="text"
+                id="input"
+                name="input"
+                placeholder="Input something to reverse it"
+                required
+              />
+            </form>
           </div>
           <div class="text-box">
-            <input
-              type="text"
-              id="input"
-              name="input"
-              placeholder="Input a something (ay) "
-              required
-            />
+            <form action="">
+              <input
+                type="text"
+                id="input"
+                name="input"
+                placeholder="Input a something (ay) "
+                required
+              />
+            </form>
           </div>
         </div>
         <!--  -->

@@ -14,6 +14,11 @@
     padding-top: 5px;
 }
 
+#lang {
+    font-size: 13px;
+    padding: 6px 10px 0 0;
+}
+
 .main-container {
     display: flex;
     align-items: center;
@@ -26,18 +31,20 @@
     display: flex;
 }
 
-
-/* not  COMPLETED */
-button {
-    padding-right: 20px;
-    font-size: 0.8rem;
-    padding-top: 10px;
-    /* display: inline-block; */
-    /* width: 15px;
-    height: 15px; */
-    border-radius: 50%;
-    background-color: rgb(80, 80, 248);
+.input {
+    padding-top: 9.8px;
 }
+
+.date {
+    display: block;
+    width: 36%;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: -10px;
+}
+
+
 
 .heading {
     padding-left: 10px;
