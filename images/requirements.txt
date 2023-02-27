@@ -6,12 +6,12 @@
 Store the entered fields in a JSON object. )
 
 👌id: add 10 numbers ((using prompt()) and 
-implement Merge Sort algorithm using JS. )
+👌 implement Merge Sort algorithm using JS. )
 
 input a string (JS will display on the DOM if this string is palindrome or not. The function should be implemented recursively. )
 
 
-year of birth (the system will display if the age is prime or not. )
+👌year of birth (the system will display if the age is prime or not. )
 
 
 //
@@ -20,7 +20,7 @@ Write a class using JS that represents a course and ask build a form that takes 
 //
 
 
-enter a string and reverse the letters in that string.The string might not contain letters. 
+enter a string and reverse the numbers in that string.The string might not contain letters. 
 
 
 input a string. First, move the first set of consonants (one or more) to the end of the word. Second, add “ay” to the end of the word. For example, the word “banana” would become “ananabay.”
